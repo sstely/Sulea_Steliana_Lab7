@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sulea_Steliana_Lab7.MainPage"
+             xmlns:toolkit1="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="ateez.jpg"
+                SemanticProperties.Description="ATEEZ"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="This is ATEEZ"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="They are 8 pirates. Yes, pirates. They have lore... And they are making a comeback on 1st December 2023! With their second full-length album 'THE WORLD EP.FIN : WILL', 
+                            releasing an MV for their new title track 'Crazy Form'. Well, we do not much about it yet, But..."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Ateez Comeback"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="They released a preview of 4 fantastic b-sides from the album, known as 'World Z' songs:"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Song Previews"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <toolkit1:MediaElement
+                Source="embed://worldzvideo.mp4"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True"
+                HeightRequest="200"
+                />
+
+            <Label
+                Text="Such good songs, right? My personal favorite is 'Arriba' ay mi molleja..."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Song Previews Description"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="FYI, 'World Z' is known as an alternative, dystopian, kinda futuristic universe of these 'pirates'. You can feel it too by the way these songs sound, you know? 
+                        Lore baby, it's a long ride..."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="World Z Description"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="weknow.jpg"
+                SemanticProperties.Description="ATEEZ We Know Song"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="emergency.jpg"
+                SemanticProperties.Description="ATEEZ Emergency Song"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="arriba.jpg"
+                SemanticProperties.Description="ATEEZ Arriba Song"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="silverlight.jpg"
+                SemanticProperties.Description="ATEEZ Silver Light Song"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                 Text="The other songs are FIRE as well! This album has a total of 12 songs and is a mix of various genres, so you won't get bored just because 'they all sound the same'."
+                 SemanticProperties.HeadingLevel="Level2"
+                 SemanticProperties.Description="Tracklist Preview"
+                 FontSize="18"
+                 HorizontalOptions="Center" />
+            
+            <Label
+                 Text="Here, you can listen to an instrumental preview of the tracklist to prove my point:"
+                 SemanticProperties.HeadingLevel="Level2"
+                 SemanticProperties.Description="Tracklist Preview"
+                 FontSize="18"
+                 HorizontalOptions="Center" />
+
+            <toolkit1:MediaElement
+                Source="embed://tracklistinstrumentals.mp4"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True"
+                HeightRequest="200"/>
+
+            <Label
+                Text="Now... 'Crazy Form' is kinda crazy, am I right? This song is also know as SOTY (Song Of The Year). You can't miss such a masterpiece..."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Title Track Description"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="So don't forget! 1st December!"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Title Track Description"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="And don't forget to check them out on Youtube as well! Keep yourself updated. You for sure don't want to miss such a great comeback... 'WILL' as AOTY!"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Conclusion"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Check out ATEEZ"
+                SemanticProperties.Hint="Redirects you to a Youtube video"
+                Clicked="OnLinkClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
