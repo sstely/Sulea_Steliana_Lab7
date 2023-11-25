@@ -23,7 +23,7 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="They are 8 pirates. Yes, pirates. They have lore... And they are making a comeback on 1st December 2023! With their second full-length album 'THE WORLD EP.FIN : WILL', 
+                Text="They are 8 pirates. Yes, pirates. They have lore... And they are making a comeback on 1st December 2023! With their 3rd full-length album 'THE WORLD EP.FIN : WILL', 
                             releasing an MV for their new title track 'Crazy Form'. Well, we do not much about it yet, But..."
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Ateez Comeback"
