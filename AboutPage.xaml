@@ -4,14 +4,27 @@
              x:Class="Sulea_Steliana_Lab7.AboutPage"
              Title="AboutPage">
     <VerticalStackLayout Spacing="10" Margin="10">
+
         <HorizontalStackLayout Spacing="10">
             <Image Source="shop_list.png"
-                   SemanticProperties.Description="My Shopping List"
+                   SemanticProperties.Description="ATEEZ Info"
                    HeightRequest="64" />
-            <Label FontSize="22" FontAttributes="Bold" Text="My Shopping Lists" VerticalOptions="End" />
-            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+            <Label FontSize="22" FontAttributes="Bold" Text="My ATEEZ" VerticalOptions="End" />
         </HorizontalStackLayout>
-        
-        <Label Text="This app will help you to manage your shopping lists" />
+
+        <Label Text="ATEEZ (에이티즈), known pre-debut as KQ Fellaz, is an 8-member boy group under KQ Entertainment. The group consists of: 
+               Seonghwa, Hongjoong, Yunho, Yeosang, San, Mingi, Wooyoung and Jongho. They released the pre-debut song ‘From’ on July 9, 2018. 
+               The group debuted on October 24, 2018 with the mini-album “Treasure Ep.1: All to Zero“. 
+               On July 8, 2019, ATEEZ signed with USA record label RCA Records. They are also signed to the Japanese record label Nippon Columbia since 2019." />
+
+        <Label Text="Fandom Name: ATINY (a combination of ATEEZ + DESTINY)" />
+
+        <Button
+            x:Name="CounterBtn"
+            Text="Check out ATEEZ"
+            SemanticProperties.Hint="Redirects you to a Youtube chanel"
+            Clicked="OnLinkClicked"
+            HorizontalOptions="Center" />
+
     </VerticalStackLayout>
 </ContentPage>

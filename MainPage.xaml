@@ -23,40 +23,192 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="They are 8 pirates. Yes, pirates. They have lore... And they are making a comeback on 1st December 2023! With their 3rd full-length album 'THE WORLD EP.FIN : WILL', 
-                            releasing an MV for their new title track 'Crazy Form'. Well, we do not much about it yet, But..."
+                Text="They are 8 pirates. Yes, pirates. They have lore... And they just had a comeback on 1st December 2023! With their 3rd full-length album 'THE WORLD EP.FIN : WILL', 
+                            releasing an MV for their new title track 'Crazy Form':"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Ateez Comeback"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
+            <toolkit1:MediaElement
+                Source="embed://crazyformmv.mp4"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True"
+                HeightRequest="200"/>
+
             <Label
-                Text="They released a preview of 4 fantastic b-sides from the album, known as 'World Z' songs:"
+                Text="'Crazy Form' is crazy, I know... and you know it too. This song is also know as SOTY (Song Of The Year). Such a masterpiece..."
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Song Previews"
+                SemanticProperties.Description="Title Track Description"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
-            <toolkit1:MediaElement
-                Source="embed://worldzvideo.mp4"
-                ShouldAutoPlay="False"
-                ShouldShowPlaybackControls="True"
-                HeightRequest="200"
-                />
+            <Label
+                Text="They released 12 fantastic tracks in this album. The songs are FIRE !! This album is a mix of various genres, so you won't get bored just because 'they all sound the same'."
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Tracklist Description"
+                FontSize="18"
+                HorizontalOptions="Center" />
 
             <Label
-                Text="Such good songs, right? My personal favorite is 'Arriba' ay mi molleja..."
+                 Text="Here, you can listen the tracklist to prove my point:"
+                 SemanticProperties.HeadingLevel="Level2"
+                 SemanticProperties.Description="Tracklist"
+                 FontSize="18"
+                 HorizontalOptions="Center" />
+
+            <Label
+                Text="01. WE KNOW"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://weknow.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="02. Emergency"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://emergency.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="03. 미친 폼 (Crazy Form)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://crazyform.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="04. ARRIBA"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://arriba.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="05. Silver Light"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://silverlight.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="06. Crescent Part.2"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://crescentpt2.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="07. 꿈날 (Dreamy Day)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://dreamyday.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="08. MATZ (HONGJOONG, SEONGHWA)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://matz.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="09. IT's You (YEOSANG, SAN, WOOYOUNG)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://itsyou.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="10. Youth (YUNHO, MINGI)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://youth.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="11. Everything (JONGHO)"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://everything.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="12. FIN: WILL"
+                SemanticProperties.HeadingLevel="Level3"
+                SemanticProperties.Description="Song Title"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            <toolkit1:MediaElement
+                Source="embed://finwill.mp3"
+                ShouldAutoPlay="False"
+                ShouldShowPlaybackControls="True" />
+
+            <Label
+                Text="Such good songs, right? Last time I said that my personal favorite is 'ARRIBA'. 
+                    After I listened the whole album, 'ARRIBA' is still my favorite track ay mi molleja..."
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Song Previews Description"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="FYI, 'World Z' is known as an alternative, dystopian, kinda futuristic universe of these 'pirates'. You can feel it too by the way these songs sound, you know? 
-                        Lore baby, it's a long ride..."
+                Text="Don't forget to check them out on Youtube as well! This was such a great comeback, it's never too late to stan ATEEZ... 'WILL' as AOTY!"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="World Z Description"
+                SemanticProperties.Description="Conclusion"
                 FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Watch 'Crazy Form' on Youtube"
+                SemanticProperties.Hint="Redirects you to a Youtube video"
+                Clicked="OnLinkClicked"
                 HorizontalOptions="Center" />
 
             <Image
@@ -81,54 +233,6 @@
                 Source="silverlight.jpg"
                 SemanticProperties.Description="ATEEZ Silver Light Song"
                 HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                 Text="The other songs are FIRE as well! This album has a total of 12 songs and is a mix of various genres, so you won't get bored just because 'they all sound the same'."
-                 SemanticProperties.HeadingLevel="Level2"
-                 SemanticProperties.Description="Tracklist Preview"
-                 FontSize="18"
-                 HorizontalOptions="Center" />
-            
-            <Label
-                 Text="Here, you can listen to an instrumental preview of the tracklist to prove my point:"
-                 SemanticProperties.HeadingLevel="Level2"
-                 SemanticProperties.Description="Tracklist Preview"
-                 FontSize="18"
-                 HorizontalOptions="Center" />
-
-            <toolkit1:MediaElement
-                Source="embed://tracklistinstrumentals.mp4"
-                ShouldAutoPlay="False"
-                ShouldShowPlaybackControls="True"
-                HeightRequest="200"/>
-
-            <Label
-                Text="Now... 'Crazy Form' is kinda crazy, am I right? This song is also know as SOTY (Song Of The Year). You can't miss such a masterpiece..."
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Title Track Description"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="So don't forget! 1st December!"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Title Track Description"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="And don't forget to check them out on Youtube as well! Keep yourself updated. You for sure don't want to miss such a great comeback... 'WILL' as AOTY!"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Conclusion"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Check out ATEEZ"
-                SemanticProperties.Hint="Redirects you to a Youtube video"
-                Clicked="OnLinkClicked"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

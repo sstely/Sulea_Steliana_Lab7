@@ -26,7 +26,7 @@ namespace Sulea_Steliana_Lab7
 
         private async void OnLinkClicked(object sender, EventArgs e)
         {
-            string youtubeUrl = "https://www.youtube.com/@ATEEZofficial";
+            string youtubeUrl = "https://youtu.be/9t57C7NcjWo?si=pA3f8o0FtPugu9pR";
             await Launcher.OpenAsync(new Uri(youtubeUrl));
         }
     }
