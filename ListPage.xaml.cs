@@ -4,6 +4,8 @@ namespace Sulea_Steliana_Lab7;
 
 public partial class ListPage : ContentPage
 {
+    List<Product> displayedProducts;
+
 	public ListPage()
 	{
 		InitializeComponent();
@@ -38,7 +40,28 @@ public partial class ListPage : ContentPage
         base.OnAppearing();
         var shopl = (ShopList)BindingContext;
 
-        listView.ItemsSource = await App.Database.GetListProductsAsync(shopl.ID);
+        if (displayedProducts == null)
+        {
+            displayedProducts = await App.Database.GetListProductsAsync(shopl.ID);
+            listView.ItemsSource = displayedProducts;
+        }
+        else
+        {
+            listView.ItemsSource = displayedProducts;
+        }
     }
 
+    async void OnDeleteItemClicked(object sender, EventArgs e)
+    {
+        if (listView.SelectedItem != null)
+        {
+            var selectedProduct = listView.SelectedItem as Product;
+
+            displayedProducts.Remove(selectedProduct);
+
+
+            listView.ItemsSource = null;
+            listView.ItemsSource = displayedProducts;
+        }
+    }
 }

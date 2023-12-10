@@ -30,7 +30,12 @@
                   Margin="20">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Detail="{Binding Description}" />
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Description}" HorizontalOptions="StartAndExpand"/>
+                            <Button Text="Delete Item" Clicked="OnDeleteItemClicked" HorizontalOptions="End"/>
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
